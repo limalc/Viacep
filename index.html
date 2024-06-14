@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+   
+   
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles/reset.css">
+   <link rel="preconnect" href=" https://fonts.googleapis.com">
+   <link rel="preconnect" href=" https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./styles/style.css">
+   <title> 22101322 </title>
+
+</head>
+
+<body>
+
+    <header class="cabeçalho">
+    </header>
+<marquee>aula de integração 22101322</marquee>
+
+<main class="principal">
+    <h2 class="principal__titulo">Dados de cadastro</h2>
+
+    <form class="principal__formulario" id="formulario" target="_blank"
+        onsubmit="location.replace('./cadastro-finalizando.html')">
+    <h3 class="principal__subtitulo"> Dados Pessoais</h3>
+    <div class="formulario_campo">
+        <label class="campo__nome" for="nome">Nome completo</label>
+        <input name="nome" id="nome" class="campo__escrita" required />
+    </div>
+    <div class="formulario_campo">
+        <label class="campo__nome" for="email">E-mail</label>
+        <input name="email" id="email" type="email" class="campo__escrita" required />
+    </div>
+    </div>
+    <h2 class="principal_titulo"> Endereço</h2>
+
+    <div class="formulario_campo">
+        <label class="campo__nome" for="cep">CEP</label>
+        <input name="cep" id="cep" class="campo__escrita" required />
+        <div id="erro"></div>
+    </div>
+
+    <div class="formulario_campo">
+        <label class="campo__nome" for="endereco">Endereço</label>
+        <input name="endereco" id="endereco" class="campo__escrita" required />
+       
+    </div>
+
+    
+    <div class="formulario_campo">
+        <label class="campo__nome" for="complemento">Complemento</label>
+        <input name="complemento" id="complemento" class="campo__escrita" required />
+        
+    </div>
+
+    <div class="formulario_campo">
+        <label class="campo__nome" for="bairro">Bairro</label>
+        <input name="bairro" id="bairro" class="campo__escrita" required />
+        
+    </div>
+
+    <div class="formulario_campo">
+        <label class="campo__nome" for="cidade">Cidade</label>
+        <input name="cidade" id="cidade" class="campo__escrita" required />
+        
+    </div>
+
+    
+    <input type="submit" value="Enviar formulário" class=" formulario__botao" id="Enviar"> 
+    </form>
+
+</main>
+
+<hr>
+<footer class="rodapé">
+
+</footer>
+<script src="script.js"></script>
+</body>
+
+
